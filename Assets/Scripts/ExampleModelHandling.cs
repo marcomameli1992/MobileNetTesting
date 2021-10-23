@@ -106,7 +106,7 @@ namespace DeepReality.Demo.Scripts{
                     confidence = d.confidence,
                     data = d.data,
                     description = d.description,
-                    screenRect = d.screenRect
+                    screenRect = new Rect(0.0f, 0.0f, 1.0f, 1.0f)
                 }
             ).ToList();
         }
